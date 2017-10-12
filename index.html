@@ -5,23 +5,23 @@
         <title>Supermundo Web</title>
         <meta name="keywords" content="supermundoweb" />
         <meta name="description" content="Sitio Web de Supermundo Web" />
-        <meta charset="UTF-8"/>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
         <script type="text/javascript" src="res/js.js"></script>
-<link rel="stylesheet" href="res/css.css"  />
+        <link rel="stylesheet" href="res/css.css"  />
     </head>
     <body>
         <center>
             <img src="img/logo.png" title="Supermundoweb"  alt="Supermundoweb" />
             <h1>Supermundoweb</h1>
         </center>
-<hr />
-<div id="navegador">
-<ul>
-<li><a href="#inicio">Inicio</a></li>
-<li><a href="#servicios">Servicios</a></li>
-<li><a href="#contacto">Contacto</a></li>
-</ul>
-</div>
+        <hr />
+        <div id="navegador">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
         <hr />
         <a name="inicio"></a>
         <h2>Inicio</h2>        
@@ -52,24 +52,24 @@
         <br />
         <form method="post" action="index.html" id="formulario" name="formulario"><fieldset>
                 <legend>Contáctenos</legend><br />
-                    <label for="nombre" >Nombre </label> <br />
-                    <input type="text" name="nombre" tabindex="1" accesskey="n" id="nombre" /> 
-                    <label for="apellido"><p>Apellido </p>
-                        <input name="apellido" tabindex="2" accesskey="a" id="apellido" /> 
-                    </label>
-                    <label for="email"><p>Email </p>
-                        <input name="email" tabindex="3" accesskey="e" id="email" /> 
-                    </label>
-                    <label for="telefono"><p>Telefono </p>
-                        <input name="telefono" tabindex="4" accesskey="t" id="telefono" /> 
-                    </label>
-                    <label for="observaciones"><p>Observaciones </p>
-                        <textarea  id="observaciones"  name="observaciones" accesskey="o"    rows="10" cols="50"></textarea>
-                    </label>
-                    <br />
-                    <input name="Enviar" value="Enviar" tabindex="5" accesskey="p"
-                           type=button onclick="pregunta()" />
-                    <p></p>
+                <label for="nombre" >Nombre </label> <br />
+                <input type="text" name="nombre" tabindex="1" accesskey="n" id="nombre" /> 
+                <label for="apellido">Apellido </label> <br />
+                <input name="apellido" tabindex="2" accesskey="a" id="apellido" /> 
+
+                <label for="email">Email </label> <br />
+                <input name="email" tabindex="3" accesskey="e" id="email" /> 
+
+                <label for="telefono">Telefono </label> <br /> 
+                <input name="telefono" tabindex="4" accesskey="t" id="telefono" /> 
+
+                <label for="observaciones"> Observaciones </label> <br />
+                <textarea  id="observaciones"  name="observaciones" accesskey="o"    rows="10" cols="50"></textarea>
+
+                <br />
+                <input name="Enviar" value="Enviar" tabindex="5" accesskey="p"
+                       type="button" onclick="pregunta()" />
+                <p></p>
 
             </fieldset>
         </form>
